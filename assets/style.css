@@ -282,3 +282,5 @@ textarea { min-height: 150px; resize: vertical; }
 .foot .small { color: var(--ink-2); font-size: .88rem; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+.blur { filter: blur(6px); user-select: none; pointer-events: none; }

@@ -69,10 +69,8 @@
       var topicSel = d.getElementById('f-topic');
       var topic = topicSel.options[topicSel.selectedIndex];
       var msg = d.getElementById('f-msg').value.trim();
-      var route = topic.getAttribute('data-to');
-      var a = form.getAttribute('data-armando'), n = form.getAttribute('data-nida');
-      var to = route === 'nida' ? n : a;
-      var cc = route === 'both' ? n : (route === 'armando' ? n : '');
+      var to = form.getAttribute('data-to');
+      var cc = '';
       var subject = '[Website] ' + topic.textContent.trim() + ' - ' + name;
       var body = msg + '\n\n--\n' + name + '\n' + from;
       var out = d.getElementById('f-out');

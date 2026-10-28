@@ -24,7 +24,7 @@ All links are relative, so the folder works at a root domain or under a sub-path
 
 ## Things to edit
 
-- **Contact details** are in `contact.html` and `ar/contact.html` (search for the email addresses and phone numbers). Replace with a firm email when you have one.
+- **Contact details** are in `contact.html` and `ar/contact.html`. The coordinator's email and phone are shown; the two engineers' details are shown blurred as placeholders. The contact form sends to the coordinator's email.
 - **Contact form:** it prepares an email in the visitor's email app. To receive submissions directly instead, create a free Formspree or Netlify Forms form and point the `<form>` at it.
 - **Projects** are listed as the principals' past experience. Check with former employers and clients before naming projects publicly, and add real Arman & Co projects as you win them.
 - **Arabic text** should be read once by a native Arabic-speaking engineer before launch.
